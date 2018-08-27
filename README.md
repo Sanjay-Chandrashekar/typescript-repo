@@ -12,7 +12,7 @@ TypeScript’s main benefits:
 6. Syntax Similarity to Our Backend Languages (Java, [Scala](http://www.slideshare.net/razvanc/quick-typescript-vs-scala-sample))
 7. Superset of JavaScript
 
-###**Class and Module Support**
+###Class and Module Support
 
 Keywords like class, interface, extends and module are available in TypeScript.
 You can define a class as
