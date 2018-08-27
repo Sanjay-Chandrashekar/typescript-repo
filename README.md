@@ -18,7 +18,8 @@ Keywords like class, interface, extends and module are available in TypeScript.
 
 You can define a class as
 
-<span style="color:blue">// class define in TypeScript</span>
+<span style="color:blue">class define in TypeScript</span>
+
 class VirtualPageTracker extends Tracker {
     private virtualPageName: string = '';
     constructor(name) {
