@@ -1,1 +1,1 @@
-The *quick* brown fox, jumped **over** the lazy [dog](https://en.wikipedia.org/wiki/Dog).
+[Recently, we moved our Browser RUM agent from JavaScript to TypeScript](https://blog.appdynamics.com/devops/8-steps-migrating-javascript-typescript/). In my last post, I focused on walking through the steps of migrating from JavaScript, the challenges, and best practices we uncovered along the way.
