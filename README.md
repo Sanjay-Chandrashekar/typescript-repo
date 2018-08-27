@@ -4,14 +4,15 @@ This one will focus on more details of the benefits and one missing feature in T
 
 TypeScript’s main benefits:
 
-Class and Module Support
-Static Type-checking
-ES6 Feature Support
-Clear Library API Definition
-Build-in Support for JavaScript Packaging
-Syntax Similarity to Our Backend Languages (Java, [Scala](http://www.slideshare.net/razvanc/quick-typescript-vs-scala-sample))
-Superset of JavaScript
+*Class and Module Support
+*Static Type-checking
+*ES6 Feature Support
+*Clear Library API Definition
+*Build-in Support for JavaScript Packaging
+*Syntax Similarity to Our Backend Languages (Java, [Scala](http://www.slideshare.net/razvanc/quick-typescript-vs-scala-sample))
+*Superset of JavaScript
 
-#Class and Module Support
+**#Class and Module Support**
+
 Keywords like class, interface, extends and module are available in TypeScript.
 You can define a class as
