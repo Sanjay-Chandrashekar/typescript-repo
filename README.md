@@ -21,9 +21,9 @@ You can define a class as
 [*// class define in TypeScript*](https://placehold.it/15/1589F0/000000?text=+)
 
 **[class](https://placehold.it/15/00008B/000000?text=+)** VirtualPageTracker **[extends](https://placehold.it/15/00008B/000000?text=+)** Tracker {\
-    **[private](https://placehold.it/15/00008B/000000?text=+)** virtualPageName: **[string](https://placehold.it/15/00008B/000000?text=+)** =";\
-    **[constructor](https://placehold.it/15/00008B/000000?text=+)**(name) {\
-       **[super](https://placehold.it/15/00008B/000000?text=+)**(name);
+         **[private](https://placehold.it/15/00008B/000000?text=+)** virtualPageName: **[string](https://placehold.it/15/00008B/000000?text=+)** =";\
+         **[constructor](https://placehold.it/15/00008B/000000?text=+)**(name) {\
+               **[super](https://placehold.it/15/00008B/000000?text=+)**(name);
     }\
     getName(): void {
         return this.virtualPageName;
