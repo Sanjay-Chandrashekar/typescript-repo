@@ -15,4 +15,5 @@ TypeScript’s main benefits:
 ### Class and Module Support
 
 Keywords like class, interface, extends and module are available in TypeScript.
+
 You can define a class as
