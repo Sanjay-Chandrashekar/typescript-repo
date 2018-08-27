@@ -1,4 +1,4 @@
-[Recently, we moved our Browser RUM agent from JavaScript to TypeScript] (https://blog.appdynamics.com/devops/8-steps-migrating-javascript-typescript/). In my last post, I focused on walking through the steps of migrating from JavaScript, the challenges, and best practices we uncovered along the way.
+Recently, we moved our Browser RUM agent from JavaScript to TypeScript (https://blog.appdynamics.com/devops/8-steps-migrating-javascript-typescript/). In my last post, I focused on walking through the steps of migrating from JavaScript, the challenges, and best practices we uncovered along the way.
 This one will focus on more details of the benefits and one missing feature in TypeScript compiler we suggest to implement.
 
 TypeScript’s main benefits:
