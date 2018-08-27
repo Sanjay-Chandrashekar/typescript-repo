@@ -1,14 +1,1 @@
-class VirtualPageTracker extends Tracker {
-    private virtualPageName: string = '';
-    constructor(name) {
-        super(name);
-    }
-
-    getName(): void {
-        return this.virtualPageName;
-    }
-
-    static getTrackerName(): string {
-        return  'VirtualPageTracker';
-    }
-}
+Recently, we moved our Browser RUM agent from JavaScript to TypeScript. In my last post, I focused on walking through the steps of migrating from JavaScript, the challenges, and best practices we uncovered along the way.
