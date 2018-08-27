@@ -34,3 +34,32 @@ class VirtualPageTracker extends Tracker {
     }
 }
 ```
+TypeScript compiler will transcompile it to
+
+```javascript
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d
+ = b
+;
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+// class define in TypeScript
+var VirtualPageTracker = (function (_super) {
+    __extends(VirtualPageTracker, _super);
+    function VirtualPageTracker(name) {
+        _super.call(this, name);
+        this.virtualPageName = '';
+    }
+    VirtualPageTracker.prototype.getName = function () {
+        return this.virtualPageName;
+    };
+    VirtualPageTracker.getTrackerName = function () {
+        return 'VirtualPageTracker';
+    };
+    return VirtualPageTracker;
+})(Tracker);
+
+```
+
