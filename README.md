@@ -17,7 +17,7 @@ TypeScript’s main benefits:
 Keywords like class, interface, extends and module are available in TypeScript.
 
 You can define a class as
-'''javascript
+```javascript
 // class define in TypeScript
 class VirtualPageTracker extends Tracker {
 	     private virtualPageName: string = '';
@@ -33,4 +33,4 @@ class VirtualPageTracker extends Tracker {
         return  'VirtualPageTracker';
     }
 }
-'''
+```
