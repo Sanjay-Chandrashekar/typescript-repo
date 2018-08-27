@@ -20,4 +20,4 @@ You can define a class as
 
 [*// class define in TypeScript*](https://placehold.it/15/1589F0/000000?text=+)
 
-[class](https://placehold.it/15/2a4b8d/000000?text=+) VirtualPageTracker extends Tracker {
+[class](https://placehold.it/15/00008B/000000?text=+) VirtualPageTracker extends Tracker {
